@@ -45,7 +45,9 @@ int main(){
         	getchar();
     	}
     	menu = principal();
-    } else{
+    } else if(menu==4){
+		fim = 1;
+	} else{
     	printf("DIGITE UMA OPCAO VALIDA OTARIO!\n");
     	menu = principal();
     }
