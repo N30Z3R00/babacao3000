@@ -1,3 +1,6 @@
+//Menus
+
+//Menu Principal
 int principal(){
 	int opcao;
 
@@ -13,14 +16,14 @@ int principal(){
 	printf("Menu Principal\n\n");
 	printf("Escolha uma das opcoes:\n");
 	printf("1) Sou namoral e quero Bhaskara\n");
-	printf("2) Uso Linux e quero Soma e Produto (BETA)\n");
-	printf("3) Por que Babacao 3000?\n");
-	printf("4) Quero sair dessa merda!\n\n");
+	printf("2) Uso Linux e quero Soma e Produto\n");
+	printf("3) Por que Babacao 3000?\n\n");
 	printf("Escolho a opcao: "); scanf("%d", &opcao);
 
 	return opcao;
 }
 
+//Menu 3
 void faq(){
 	printf("\n=======================\n");
 	printf("PQ BABACAO 3000?\n");
@@ -43,16 +46,17 @@ void faq(){
 	printf("'projeto', se eh q posso chama-lo assim.\n");
 	printf("Mesmo assim, obrigado por ter usado esse lixo\n");
 	printf("de codigo, por mais inutil q seja me orgulho dele :)\n\n");
-	printf("PS.: QUEM USA LINUX EH BABACA!\n\n");
-	printf("PS. 2: Se quiser me dar um emprego estou aceitando propostas!\n\n");
-	printf("PS. 3: EU SEI QUE O DIFERENCIAL DO PROGRAMA EH SOMA E PRODUTO\n");
-	printf("       MAS RODEI UNS TESTES E ELE AINDA BUGA UM POUCO, EH DIFICIL\n");
-	printf("       FAZER UMA PSEUDO IA SEM UMA IA!\n\n");
-	printf("PS. 4: Um dia serei da google pq to devendo um carro pro Andre\n");
+	printf("PS.: QUEM USA LINUX EH BABACA!\n");
+	printf("PS. 2: Se quiser me dar um emprego estou aceitando propostas!\n");
+	printf("PS. 3: Um dia serei da google pq to devendo um carro pro Andre\n");
 	printf("       espero poder mostrar isso na minha entrevista!\n\n");
 	printf("Email: tem no perfil do github, n seja preguicoso ;)\n");
 	printf("Voltar? ->");
 }
+
+//Menus após descobrimento das raizes
+
+//Menus após descobrimento das raizes por soma e produto
 int menu_babaca(){
 	int opcao;
 
@@ -63,6 +67,8 @@ int menu_babaca(){
 
 	return opcao;
 }
+
+//Menus após descobrimento das raizes por Bhaskara
 int menu_namoral(){
 	int opcao;
 
@@ -73,6 +79,10 @@ int menu_namoral(){
 
 	return opcao;
 }
+
+//Menus após primeira escolha
+
+//De Bhaskara para Soma e Produto
 int virei_babaca(){
 	int opcao;
 
@@ -83,6 +93,8 @@ int virei_babaca(){
 
 	return opcao;
 }
+
+//De Soma e Produto para Bhaskara
 int conversao(){
 	int opcao;
 
